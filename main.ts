@@ -18,7 +18,7 @@ input.onGesture(Gesture.Shake, function () {
     randomNumber = randint(0, 2)
     basic.clearScreen()
 
-    // if randomNumber was 0
+    // if randomNumber was 0 (rock)
     if (randomNumber == 0) {
         basic.clearScreen()
         basic.showLeds(`
@@ -32,7 +32,7 @@ input.onGesture(Gesture.Shake, function () {
         basic.showIcon(IconNames.Happy)
     }
 
-    // if randomNumber was 1
+    // if randomNumber was 1 (paper)
     if (randomNumber == 1) {
         basic.clearScreen()
         basic.showIcon(IconNames.Square)
@@ -40,7 +40,7 @@ input.onGesture(Gesture.Shake, function () {
         basic.showIcon(IconNames.Happy)
     }
 
-    // if randomNumber was 2
+    // if randomNumber was 2 (scissors)
     if (randomNumber == 2) {
         basic.clearScreen()
         basic.showIcon(IconNames.Scissors)
