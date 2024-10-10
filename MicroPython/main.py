@@ -44,8 +44,7 @@ while True:
             display.clear()
             display.show(Image.HAPPY)
 
-# Adds 1 to score when a button is pressed.
-while True:
+    # Adds 1 to score when a button is pressed.
     if button_a.is_pressed():
         score_number = score_number + 1
         display.clear()
@@ -54,9 +53,8 @@ while True:
         display.clear
         display.show(Image.HAPPY)
 
-# Display score when b button pressed.
-while True:
-    if button_.is_pressed():
+    # Display score when b button pressed.
+    if button_b.is_pressed():
         display.clear()
         display.scroll("Score:  " + str(score_number))
         display.clear
